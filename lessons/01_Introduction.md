@@ -20,7 +20,7 @@ Oftentimes, the most basic visualization question about what type of plot to cre
 2. Is my desired graphic appropriate for my data?
 3. How do I create this graphic using my data?
 
-Recently, a fabulous website was released, [from Data to Viz](https://www.data-to-viz.com), that can help address some of these fundamental questions. It provides a decision tree based on the type of data you are trying to plot. Regardless of whether your data is from genomics, chemistry, economics, business, etc., the data type generally could be grouped as:
+This newish webpage [from Data to Viz](https://www.data-to-viz.com), can help address some of these fundamental questions. It provides a decision tree based on the type of data you are trying to plot. Regardless of whether your data is from genomics, chemistry, economics, business, etc., the data type generally could be grouped as:
  
  - Numeric
  - Categoric
@@ -29,8 +29,8 @@ Recently, a fabulous website was released, [from Data to Viz](https://www.data-t
  - Network
  - Time series
 
-<p align="center">
-<img src="../img/data_to_viz.png" height="400">
+<p>
+<img src="../img/data_to_viz.png" height="200">
 </p>
 
 Let's navigate to the [website](https://www.data-to-viz.com) and **explore**. Let's assume we have **categoric data** with **one variable**:
