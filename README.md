@@ -31,6 +31,17 @@ This is a hands-on tutorial in which the data and code will be distributed to pa
 
 Researchers with an intermediate background in R who interested in using R to create publication-ready figures. 
 
+### Dataset
+
+Download the R project and data for this workshop [here](https://github.com/hbctraining/Training-modules/raw/master/data/publication_perfect.zip). Decompress and move the folder to the location on your computer where you would like to perform the analysis.
+
+
+### Installation Requirements
+
+1. Install the following R packages from CRAN (using `install.packages()`): `"tidyverse", "cowplot", "ggpubr", "RColorBrewer", "viridis", "scales", "VennDiagram", "pheatmap", "png", "ggrepel", "ggplotify", "magick", "ggvenn"`
+2. Load the libraries to make sure the packages installed properly:
+
+
 ## Schedule
 
 | Time | Topic | Instructor
@@ -49,8 +60,7 @@ Researchers with an intermediate background in R who interested in using R to cr
 | 14:40 - 15:15	| [Adding annotations and including statistical comparisons with ggpubr](lessons/07_adding_text_annotations.md) | 
 | 15:15 - 15:45	| [Incorporating external packages to extend plotting functionality](lessons/08_figure_specific_packages.md) | 
 | 15:45 - 15:50	| [Creating final figure](lessons/09_final_figure.md) | 
-| 15:50 - 15:55	| [Pivoting publications](lessons/10_pivoting_publications.md) | 
-| 15:55 - 16:00	| [Wrap-up and exit survey]() | 
+| 15:50 - 16:00	| [Pivoting publications](lessons/10_pivoting_publications.md) | 
 
 [Take-home exercise to create the bar plot figures](lessons/bar_plots_exercise.md)
 
@@ -60,53 +70,5 @@ Researchers with an intermediate background in R who interested in using R to cr
 * [From Data to Viz online resource](https://www.data-to-viz.com)
 * [Tidyverse ggplot2 online reference](https://ggplot2.tidyverse.org/reference/index.html)
 
-### Dataset
-
-Download the R project and data for this workshop [here](https://github.com/hbctraining/Training-modules/raw/master/data/publication_perfect.zip). Decompress and move the folder to the location on your computer where you would like to perform the analysis.
-
-### Installation Requirements
-
-Download the most recent versions of R and RStudio for your laptop:
-
- - [R](http://lib.stat.cmu.edu/R/CRAN/) (Version 4.0 or higher)
- - [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
- 
-Install the required R packages by running the following code in RStudio:
-
-```r
-# Install CRAN packages
-install.packages("tidyverse")
-install.packages("cowplot")
-install.packages("ggpubr")
-install.packages("RColorBrewer")
-install.packages("viridis")
-install.packages("scales")
-install.packages("VennDiagram")
-install.packages("pheatmap")
-install.packages("png")
-install.packages("ggrepel")
-install.packages("ggplotify")
-install.packages("magick")
-install.packages("ggvenn")
-```
-
-Load the libraries to make sure the packages installed properly:
-
-```r
-# Load R libraries
-library(cowplot)
-library(ggpubr)
-library(RColorBrewer)
-library(viridis)
-library(scales)
-library(tidyverse)
-library(VennDiagram)
-library(ggvenn)
-library(pheatmap)
-library(png)
-library(ggrepel)
-library(ggplotify)
-library(magick)
-```
 
 *These materials have been developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). These are open access materials distributed under the terms of the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.*
