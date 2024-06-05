@@ -92,12 +92,12 @@ First though we need to bring the data into R!
 
 > [Here is the link](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111660) to the GEO submission for these data.
 
-1. We will start by downloading a basic project folder with the data by right-clicking on [this link](https://github.com/hbctraining/Training-modules/raw/master/data/publication_perfect.zip).
-2. Upload the zipped folder to scp using the upload button.
+1. We will start by downloading a basic project folder with the data by downloading it from Files in Teams, `publication_perfect.zip`).
+3. Upload the zipped folder to scp using the upload button.
 1. Navigate into the folder and click on the file with the `.Rproj` extension. Rstudio will ask you if you want to open the publication_perfect project, say yes.
 1. From the menu bar select 'File' --> 'New File' --> 'Rscript'. This will open up the script editor, so you have a place to write and save your code. 
 1. Copy and paste the following code into your script. Run the code in the console to read in the data and create three data frames.
-
+1. Now go back to Teams and download the R file to your laptop and upload it to scp using the upload button.
 ```r
 # Read in the metadata file
 meta <- read.csv("data/pp_all_meta.csv", row.names=1)
